@@ -1,0 +1,104 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: url("./picturesforthefrontpage/front\ page\ pic.jpg") no-repeat fixed;
+    height: 100vh;
+    background-size: cover;    
+    text-align: center;
+    padding:15vh 0  0 0;
+    font-family: 'Alef', sans-serif;
+
+}
+
+h1
+{
+    color:#EC8A43;
+}
+
+.Login
+{
+    margin: 10vh auto;
+    background-color: #EC8A43;
+    border-radius: 26px;
+    width:80vw;
+    padding: 84px 20px;
+    
+}
+
+.black-bg
+{
+    background-color: #3f3c3c;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  
+}
+
+::-webkit-input-placeholder
+{
+    font-family: 'Alef', sans-serif;
+    color:#EC8A43;
+}
+
+::-moz-placeholder 
+{
+  font-family: 'Alef', sans-serif;
+  color:#EC8A43;
+
+}
+:-ms-input-placeholder 
+{
+  font-family: 'Alef', sans-serif;
+  color:#EC8A43;
+}
+::placeholder 
+{
+  font-family: 'Alef', sans-serif;
+  color:#EC8A43;
+}
+
+input[type="button"]
+{
+    padding:15px;
+    width:38%;
+    border-radius: 5px;
+    background-color:white;
+    color:#EC8A43;
+    border:none;
+    font-size: 1.2em;
+    font-family: 'Alef', sans-serif;
+    box-shadow: 0 0 5px  grey;
+    cursor: pointer;
+}
+
+input[type="button"]:hover
+{
+    
+    background-color:#3f3c3c;
+    box-shadow: 0 0 5px  white;
+
+}
+
+@media (min-width:768px)
+{
+    body
+    {
+        padding: 8vh 0 0 0;
+    }
+
+    .Login
+    {
+        
+        width:50vw;
+        
+    }
+
+}
+
