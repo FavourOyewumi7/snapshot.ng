@@ -7,7 +7,7 @@
 
 body
 {
-    background: url("./picturesforthefrontpage/front\ page\ pic.jpg") no-repeat fixed;
+    background: url("../img/front\ page\ pic.jpg") no-repeat fixed;
     height: 100vh;
     background-size: cover;    
     text-align: center;
