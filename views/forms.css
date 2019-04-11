@@ -67,7 +67,7 @@ h1
 input[type="button"]
 {
     padding:15px;
-    width:38%;
+    width:42%;
     border-radius: 5px;
     background-color:white;
     color:#EC8A43;
@@ -108,6 +108,11 @@ input[type="button"]:hover
     .Form
     {       
         width:50vw;        
+    }
+
+    input[type="button"]
+    {        
+        width:38%;
     }
 
 }
