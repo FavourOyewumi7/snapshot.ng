@@ -1,0 +1,160 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: url("./img/fronter\ page\ pic\ 2.jpeg") no-repeat center fixed;    
+    background-size: cover;
+    height: 100vh;  
+    text-align: center;
+    padding:10vh 0  0 0;
+    font-family: 'Alef', sans-serif;
+    position: relative;
+
+}
+
+nav
+{
+    
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%
+}
+
+#logo
+{
+    position: fixed;
+    left: 4%;
+    top:2%;
+    background:  #EC8A43;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2em;
+
+}
+
+/*HAMBURGER ICON*/
+#hamburger
+{
+    cursor: pointer;
+    width:40px;
+    position: fixed;
+    right: 4%;
+    top:2%;
+    background:  #EC8A43;
+    padding: 2px;
+    border-radius: 5px;
+    z-index: 10;
+    display: block;
+}
+
+.bars
+{
+    width: 70%;
+    height: 4px;
+    background: black;
+    margin: 5px;
+    transition: 0.4s;
+
+}
+
+.animate .bars:nth-child(1)
+{
+    -webkit-transform: rotate(-45deg) translate(-7px, 7px) ;
+    transform: rotate(-45deg) translate(-7px, 7px);
+
+}
+
+.animate .bars:nth-child(2)
+{
+    opacity: 0;
+}
+
+.animate .bars:nth-child(3)
+{
+    -webkit-transform: rotate(45deg) translate(-6px, -6px) ;
+    transform: rotate(45deg) translate(-6px, -6px) ;
+    
+}
+
+#navlinks
+{
+    width:60vw;
+    height: 65vh;
+    padding-top: 15vh;
+    background: #0c0c0c;
+    position: fixed;
+    right: 0;
+    top:0;
+    display: none;   
+}
+
+
+#navlinks li
+{
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+}
+
+#navlinks a
+{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #EC8A43;
+}
+
+.toggle
+{
+    display: block !important;
+}
+
+
+@media (min-width:768px)
+{
+
+    nav
+    {
+        background: #EC8A43;
+    }
+
+    #hamburger
+    {
+        display: none;
+    }
+
+    #navlinks
+    {
+        background: none;
+        display: block;
+        width:60vw;
+        height: initial;
+        padding-top: initial;
+        background: none;
+        position: fixed;
+        right: 10%;
+        top:0; 
+    }
+
+    #navlinks li
+    {
+        display: inline-block;
+        width: initial;
+        margin: 4vh 20px ;
+        font-weight: bolder;
+    }
+
+    #navlinks a
+    {
+        color: black;
+        display: inline-block;
+        width: initial;
+    }
+}
