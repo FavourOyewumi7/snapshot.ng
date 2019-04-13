@@ -146,6 +146,8 @@ nav
         position: fixed;
         right: 10%;
         top:0; 
+        opacity: 1;
+        margin: initial;
     }
 
     #navlinks li
