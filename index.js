@@ -1,16 +1,10 @@
 const burg = document.querySelector("#hamburger");
 const menu = document.querySelector("#navlinks");
 
-function animateMenuIcon()
+function animateMenu()
 {
-   burg.classList.toggle('animate');   
-   showNav();
+   burg.classList.toggle('animate');
+   menu.classList.toggle('open');   
 }
 
-function showNav()
-{
-   menu.classList.toggle('open');
-   
-}
-
-burg.addEventListener('click',animateMenuIcon,false);
+burg.addEventListener('click',animateMenu,false);
