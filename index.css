@@ -92,7 +92,10 @@ nav
     position: fixed;
     right: 0;
     top:0;
-    display: none;   
+    margin-right: -65vw;
+    opacity: 0;
+    transition: margin-right 200ms ease-in-out,
+                opacity 300ms ease-in-out;
 }
 
 
@@ -111,9 +114,11 @@ nav
     color: #EC8A43;
 }
 
-.toggle
+#navlinks.open
 {
-    display: block !important;
+    margin-right: 0 ;
+    opacity: 1;
+
 }
 
 

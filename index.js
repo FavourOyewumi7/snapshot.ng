@@ -9,7 +9,7 @@ function animateMenuIcon()
 
 function showNav()
 {
-   menu.classList.toggle('toggle');
+   menu.classList.toggle('open');
    
 }
 
